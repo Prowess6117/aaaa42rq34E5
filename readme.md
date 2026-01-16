@@ -8,9 +8,11 @@
 - Copiar/pegar SOLO lo que necesitas
 - Lo destructivo/peligroso queda al final
 - Los "bloques por caso" se aplican en clones, NO en la base
-============================================================
-# A) SISTEMA / ENTORNO BASE
-============================================================
+
+
+:
+
+## A) SISTEMA / ENTORNO BASE
 
 # ------------------------------------------------------------
 # A1) Actualizar índice de paquetes
