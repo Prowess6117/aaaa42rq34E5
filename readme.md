@@ -1,22 +1,16 @@
-# ============================================================
 # MANUAL OPERATIVO - BASE + BLOQUES + GIT/GH (Mint / LMDE)
-# ============================================================
-# Propósito:
-#   - Tener una "máquina base" clonable (VM) y luego activar "bloques por caso"
-#   - Mantener orden lógico: update → install → configuración → utilidades
-#   - Nada se ejecuta por abrir este archivo
-#
-# Reglas:
-#   - Copiar/pegar SOLO lo que necesitas
-#   - Lo destructivo/peligroso queda al final
-#   - Los "bloques por caso" se aplican en clones, NO en la base
-# ============================================================
+## Propósito:
+- Tener una "máquina base" clonable (VM) y luego activar "bloques por caso"
+- Mantener orden lógico: update → install → configuración → utilidades
+- Nada se ejecuta por abrir este archivo
 
-
-
-# ============================================================
+## Reglas:
+- Copiar/pegar SOLO lo que necesitas
+- Lo destructivo/peligroso queda al final
+- Los "bloques por caso" se aplican en clones, NO en la base
+============================================================
 # A) SISTEMA / ENTORNO BASE
-# ============================================================
+============================================================
 
 # ------------------------------------------------------------
 # A1) Actualizar índice de paquetes
@@ -56,6 +50,7 @@ sudo apt install -y \
 #
 # Nota: npm lo dejamos fuera de BASE (va como bloque por caso),
 #       porque amarra toolchain de Node/JS y eso suele variar por proyecto.
+```
 sudo apt install -y \
   git \
   gh \
@@ -69,7 +64,7 @@ sudo apt install -y \
   htop \
   nano \
   openssh-client
-
+```
 
 # ------------------------------------------------------------
 # A4) Soporte de compilación (genérico)
